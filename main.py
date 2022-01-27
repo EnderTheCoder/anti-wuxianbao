@@ -36,6 +36,7 @@ def get_center(pos_rectangle):
         pos_y += pos_rectangle["rectangle"][index][1]
     return [pos_x / 4, pos_y / 4]
 
+
 while 1:
     screen_shot()
     pos = match_img("screenshot.png", "target.png")
